@@ -1,0 +1,49 @@
+# Python and Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.pyo
+*.pyd
+*.egg-info/
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+*.env
+
+# Django settings and sensitive data
+config/settings/local.py
+config/settings/*.pyc
+
+# Migrations
+**/migrations/*
+
+# Static files
+staticfiles/
+media/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Node.js and React
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build directories
+build/
+dist/
+public/
+coverage/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
